@@ -47,11 +47,6 @@ if answer3 == "einstein" or answer3 == "albert einstein":
 else:
     print("Incorrect. ❌ The correct answer was 'Albert Einstein'.\n")
 
-
-# ----------------------------------------------------------------------
-# OUTPUT: Deliver the final result via an f-string, right-aligned
-# in a 2-character field for clean, professional CLI formatting.
-# ----------------------------------------------------------------------
 print("=" * 50)
 print(f"QUIZ COMPLETE! Your final score is: {score:>2} / 3")
 print("=" * 50)
